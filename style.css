@@ -234,11 +234,11 @@ img.logo {
 }
 
 
-#caracteristica {
+#habilidades-container {
     background-color: var(--cor-destaque);
 }
 
-.caracteristica-container {
+.habilidades-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -249,7 +249,7 @@ img.logo {
 }
 
 @media (min-width: 769px) {
-    .caracteristica-container {
+    .habilidades-container {
         flex-wrap: nowrap; 
     }
 
@@ -269,7 +269,7 @@ img.logo {
 }
 
 @media (min-width: 1200px) {
-    .caracteristica-container {
+    .habilidades-container {
         flex-wrap: nowrap;
     }
 
@@ -289,7 +289,7 @@ img.logo {
 }
 
 
-.caracteristica-titulo {
+.habilidades-titulo {
     color: #ffffff;
     padding-bottom: 10px;
     margin-bottom: clamp(50px, 8vw, 250px);
@@ -428,7 +428,7 @@ img.logo {
 
 
 @media (max-width: 768px) {
-    .caracteristica-container {
+    .habilidades-container {
         gap: 30px;
         padding-top: 0;
     }
